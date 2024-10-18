@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header id="Home">
+    <nav class="navbar navbar-expand-lg bg-white px-4 border-bottom fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2" href="#">Techno-<span class="text-primary">Web</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-3 text-center">
+            <li class="nav-item">
+              <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#services">SEO</a></li>
+                <li><a class="dropdown-item" href="#services">Web Design</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#services">Graphics Design</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Our-Team">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/banner.jpg" class="d-block w-100" alt="">
+          <div class="carousel-caption  d-md-block">
+            <h5> First slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption  d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption  d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the Third slide.</p>
+          </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </header>
+  <section id="About">
+    <div class="about  ">
+      <div class="container my-3 ">
+        <div class="text-center my-3 ">
+          <h1 >About <span class="text-primary">me</span></h1>
+          <hr class="w-25 m-auto">
+        </div>
+        <div class="row ">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 ">
+            <h1>What do you <span class="text-primary">want to know?</span></h1>
+            <p class="p-2">"I am a front-end developer with a focus on creating responsive, visually appealing, and
+              user-friendly
+              websites. I work with technologies like HTML, CSS, and JavaScript to bring designs to life and ensure
+              seamless user experiences across different devices. I'm passionate about staying updated with the latest
+              trends and continuously improving my skills."</p>
+            <button type="button" class="btn btn-light mb-5">More about me</button>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    My Hobbies
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>My Hobbies:</strong> A hobby is an activity that someone enjoys doing in their spare time.
+                    It can be anything from cooking and gardening to playing sports and collecting stamps. There are no
+                    rules about what makes a good hobby, so it is entirely up to the individual to choose something that
+                    they enjoy.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    My Quallification
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong> My Quallification</strong>i have completed Bachelor in Computer Application degree in
+                    2023.i am currently pursuing java full stack course from Ducat.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    My Dream
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>My Dream:</strong>I've always been fascinated by the advancement in technology. So, I would
+                    try to implement my best knowledge through technology to upgrade the company's status digitally. I
+                    look forward to this job opportunity as a step ahead towards achieving my dream in life.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end">
+            <img src="./img/s4.jpg" alt="" class="img-fluid img-thumbnail">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Services py-3 bg-light " id="services">
+    <div class="container ">
+      <div class="text-center my-3">
+        <h1>Our <span class="text-primary">Services</span></h1>
+        <hr class="w-25 m-auto">
+
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <div class="card-body bg-primary text-white ">
+              <i class="bi bi-pc-display-horizontal text-primary"></i>
+              <h5 class="card-title">Graphics Designing</h5>
+              <p class="card-text">Certificate in Graphic Design</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-4 col-12">
+          <div class="card bg-primary text-white">
+            <div class="card-body">
+              <i class="bi bi-google-play text-danger "></i>
+              <h5 class="card-title">App Development</h5>
+              <p class="card-text">Certificate in App Development</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-4 col-12">
+          <div class="card bg-primary text-white">
+            <div class="card-body">
+              <i class="bi bi-browser-chrome text-success"></i>
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">Certificate in Web Development</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-12 col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <div class="card-body bg-primary text-white">
+              <i class="bi bi-amazon text-warning"></i>
+              <h5 class="card-title">AWS</h5>
+              <p class="card-text">Certificate in AWS</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-4 col-12">
+          <div class="card bg-primary text-white">
+            <div class="card-body">
+              <i class="bi bi-database text-primary"></i>
+              <h5 class="card-title">Data Science</h5>
+              <p class="card-text">Certificate in Data Science</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-4 col-12">
+          <div class="card bg-primary text-white">
+            <div class="card-body">
+              <i class="bi bi-wifi bg-dark text-info  mb-2"></i>
+              <h5 class="card-title">CCNA</h5>
+              <p class="card-text">Certificate in CCNA</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="Our-Team">
+    <div class="container ">
+      <div class="text-center my-3">
+        <h1>Our <span class="text-primary">Team</span></h1>
+        <hr class="w-25 m-auto">
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12  ">
+          <div class="card">
+           
+            <div class="card-body">
+              <img src="./img/s4.jpg" class="img-fluid  rounded-circle border border-primary p-2 " alt="">
+              <h5 class="card-title   text-center mt-2">Andrew </h5>
+              <p class="card-text text-center "> Front-end Developer</p>
+              <div class="text-center">
+              <a href="#" class="btn btn-primary ">Read More</a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+           
+            <div class="card-body">
+              <img src="./img/s5.jpg"  class="img-fluid  rounded-circle border border-primary p-2"  alt="">
+              <h5 class="card-title mt-2 text-center">Alina</h5>
+              <p class="card-text text-center">App Developer</p>
+              <div class="text-center">
+              <a href="#" class="btn btn-primary ">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+           
+            <div class="card-body">
+              <img src="./img/s3.jpg" class="img-fluid rounded-circle border border-primary p-2"  alt="">
+              <h5 class="card-title  text-center mt-2">Alisha</h5>
+              <p class="card-text text-center"> Backend Developer</p>
+              <div class="text-center">
+              <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="contact py-5" id="Contact">
+    <div class="container ">
+      <div class="text-center my-5">
+        <h1>Feel free<span class="text-primary">To Connect</span></h1>
+        <hr class="w-25 m-auto">
+
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+          
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end  p-4">
+          <img  src="./img/s6.jpg" class="img-fluid img-thumbnail " alt="">
+        </div>
+      </div>
+  </section>
+<footer>
+  <div class="container-fluid bg-primary text-white p-4 text-center fs-3">
+    Developed by Sujeet Kumar
+  </div>
+</footer>
+
+
+
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="./node_modules/jquery/dist/jquery.js"></script>
+
+</body>
+
+</html>
